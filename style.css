@@ -1,0 +1,334 @@
+    
+  /* NAV BAR */
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  #nav-bar {
+    background-color: rgb(201, 56, 56);
+    padding: 7px 0;
+    width: 100%;
+  }
+  
+  .claim {
+    color: white;
+    margin: 0 0 0 10px;
+     
+  }
+  
+  .main-menu {
+    display: inline-block;
+    float: right;
+    
+     
+  }
+  
+  .menu-ul {
+    position: relative;
+    list-style-type:none;
+    top:-1px;
+    margin-right: 10px;
+  }
+  
+  .menu-ul li{
+    display: inline-block;
+    margin: 0 10px;
+    
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    color:white;
+    
+  }  
+
+
+  /* HEADER */
+
+  header {
+      background-color: rgb(32, 101, 136);
+     /* background-image: url(/images/city-scape.svg); */ /*Esta imagen no carga */
+      background-repeat: no-repeat;
+      background-position: 50% 0%;
+      height: 400px;
+      width: 100%;
+  }
+
+  #top-bar-header{
+    padding: 10px 5px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .logo {
+      width: 100px;
+      float:left;
+    
+  }
+
+  .search-bar {
+      float: left;
+      margin: 0 0 0 10px;
+      
+  }
+
+  .search-bar input{
+      width: 88em;
+      /*width: 1180px;*/
+      height: 35px;
+      background-color: rgb(31, 82, 111);
+      border: 1px solid #588583;
+      
+  }
+
+  ::placeholder{
+    padding-left: 10px;
+  }
+
+  .lupa {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(31, 82, 111);
+    border: 1px solid #588583;
+    margin-left: -5px;
+    color:#7b7b7b;
+  }
+
+  .login {
+      display: inline-block;
+      float: right;
+      margin-right: 20px;
+  }
+  
+
+  .login-ul {
+    position: relative;
+    list-style-type:none;
+    top: -20px;
+  }
+
+  .login-li {
+    display: inline-block;
+    margin: auto 0px auto 4px;
+    color: white;
+  }
+
+  .login-li a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .mini-bear {
+      position: relative;
+      top:15px;
+      width: 40px;
+      
+  }
+
+        /*Header - resume*/
+
+ #top-header {
+   width: 100%;
+   background-image: url(/images/city-scape.svg);
+   background-repeat: no-repeat;
+   background-position: 50% 0%;
+   
+   size: cover;
+ }
+
+ .resume {
+   width: 55%;
+   margin: 15px auto 0px auto;
+ }
+
+ .resume p{
+   color: white;
+   font-size: 17px;
+   letter-spacing: 1px;
+   margin-top: 15px;
+ }
+
+ .btn-sign-up {
+  margin-top: 20px;
+  color: white;
+  font-size: 17px;
+  background-color: rgb(240, 146, 51);
+  padding: 10px 25px;
+  border-radius: 28px;
+  border: none;
+ }
+
+  /* Section 1 */
+ #section-top {
+   width: 100%;
+   height: 500px;
+   background-color: rgb(39, 53, 71);
+   background-image: url(/images/collaboration.svg);
+   background-position: 21% 35%;
+   background-repeat: no-repeat;
+   background-size: 33%;
+
+ }
+
+ .section-1 {
+   width: 50%;
+   margin: 85px auto 0 auto;
+   float: right;
+  
+ }
+
+ .section-1 ul {
+   margin-top: 15px;
+   margin-left: 16px;
+ }
+
+ .section-1 ul li {
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+ }
+
+ .section-1 ul li span {
+   margin-left: 9px;
+ }
+
+ .btn-sign-orgs {
+  margin-top: 10px;
+  color: white;
+  font-size: 17px;
+  background-color: rgb(203, 56, 55);
+  padding: 10px 25px;
+  border-radius: 28px;
+  border: none;
+
+ }
+  .section-1 ul p {
+    color: white;
+  }
+  .section-1 ul p a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Section 2 */
+
+  #section-middle {
+    width: 100%;
+    height: 500px;
+    /* background-image: url(/images/forklift.svg);*/
+    background-size: cover;
+    
+   background-color: #4ea5cf;
+  }
+
+  .section-2 {
+    width: 55%;
+    margin: 85px 0px 0 22%;
+    position: absolute;
+     
+  }
+
+  .section-2 p {
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 1em 0;
+  }
+
+  .btn-install {
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(49, 68, 88);
+    padding: 10px 25px;
+    border-radius: 28px;
+    border: none;
+  }
+
+  /* Section 3 */
+
+  #section-bottom {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    
+  }
+
+  .section-3-title {
+    width: 100%;
+    margin-top: 65px;
+    text-align: center;
+  }
+
+  .section-3-title p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 0,5em;
+  }
+
+  .section-3-logos{
+    width: 70%;
+    margin:0 auto;
+  }
+
+  .section-3-logos div{
+    width: 33%;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 2.5em 0;
+  }
+
+  .section-3-logos div p{
+    margin-top: 10px;
+  }
+
+  .section-3-logos div p a{
+    text-decoration: none;
+    color: #db2609;
+  }
+
+  .section-3-logos div img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  /* GENERAL CSS */
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+
+  h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 45px;
+  }
+
+  h2.title-dark{
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+  }
+
+  h2.title-white{
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    
+  }
+
+  section {
+    width: 100%;
+    
+  }
